@@ -1,0 +1,20 @@
+N=int(input())
+for i in range(N):
+    Num=int(input())
+    if Num%5!=0:
+        print(Num)
+    else:
+        break
+"""
+input:6
+1
+2
+3
+5
+9
+6
+output:
+1
+2
+3
+"""
